@@ -18,27 +18,24 @@ nicovlist
 アプリケーション設定
 --------------------------------------------------
 
-config/database.yml
-データベースの設定。
+**config/database.yml**
+
 特に特殊なことはしておりませんので、データベースに依存していない実装となっております。
 
-config/application.rb
+**config/application.rb**
 
-設定値
-config.nicovideo_rss
-ランキングのRSSのURL
+* config.nicovideo_rss : ランキングのRSSのURL
 
-config/environments/development.rb
-config/environments/production.rb
-config/environments/test.rb
+**config/environments/development.rb , config/environments/production.rb , config/environments/test.rb**
 
-設定値
-config.nicovideo_mail
-ニコニコ動画のログインID
-config.nicovideo_password
-ニコニコ動画のログインパスワード
+* config.nicovideo_mail : ニコニコ動画のログインID
+* config.nicovideo_password : ニコニコ動画のログインパスワード
 
-$ rake db:migrate
-データベースのマイグレーションを実行
-$ rake run script/create_mylist.rb
-マイリスト作成
+
+
+マイリストの作り方
+--------------------------------------------------
+
+    $ rake run script/create_mylist.rb
+
+上記コマンドを実行する。
