@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  year: 2012
+  month: 7
+  day: 22
+  name: 2012/07/22のマイリスト
+  mylist_id: 1
+
+two:
+  year: 2012
+  month: 7
+  day: 23
+  name: 2012/07/23のマイリスト
+  mylist_id: 2
